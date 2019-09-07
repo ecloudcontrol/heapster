@@ -65,6 +65,7 @@ spec:
   # type: LoadBalancer
   # You could also use NodePort to expose the service at a randomly-generated port
   # type: NodePort
+  type: NodePort 
   ports:
   - port: 80
     targetPort: 3000
